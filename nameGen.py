@@ -1,6 +1,6 @@
 import random
 import sys
-from enums import *
+from helpers.enums import *
 
 def randomName():
     first = random.choice(FIRSTNAME)
