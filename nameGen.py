@@ -8,9 +8,9 @@ def randomName():
 
 def anotherName(choice):
     if choice == '1':
-            name = randomName()
-            print("Here's your name ")
-            print(name + "\n")
+        name = randomName()
+        print("Here's your name ")
+        print(name + "\n")
 
 def start(inputed):
     while inputed.lower() != "x":
