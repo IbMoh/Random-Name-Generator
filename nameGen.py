@@ -29,7 +29,7 @@ def again():
     else:
         print("Thanks for playing!")
         exit()
-    
+
 def main():
 
     print("Welcome to our random name generator!")
