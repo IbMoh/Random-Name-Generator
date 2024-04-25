@@ -1,5 +1,4 @@
 import random
-import sys
 from helpers.enums import *
 
 def randomName():
