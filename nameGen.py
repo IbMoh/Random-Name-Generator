@@ -9,8 +9,7 @@ def randomName():
 def anotherName(choice):
     if choice == '1':
         name = randomName()
-        print("Here's your name ")
-        print(name + "\n")
+        print(f"Here's your name: {name}")
 
 def start(inputed):
     while inputed.lower() != "x":
@@ -18,11 +17,10 @@ def start(inputed):
         inputed = input("Press X to generate a name: ")
     if inputed.lower() == "x":
         name = randomName()
-        print("Here's your name " + "\n")
-        print(name + "\n")
+        print(f"Here's your name: {name} \n")
 
 def again():
-    newName = input("Try again? 1 or 0: \n")
+    newName = input("Try again? 1 or 0: ")
     if newName == "1":
         anotherName(newName) 
     else:
