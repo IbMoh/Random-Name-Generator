@@ -35,8 +35,7 @@ def main():
     choice = input("Press X to generate a name: ")
     start(choice)
     
-    running = True
-    while running:
+    while True:
         again()            
             
 if __name__ == "__main__":
